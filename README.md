@@ -1,15 +1,9 @@
-# My beautiful actor
+# Coronavirus (COVID-19) Latvia Data
 
-The `README.md` file contains a documentation what your actor does and how to use it,
-which is then displayed in the app or Apify Store. It's always a good
-idea to write a good `README.md`, in a few months not even you
-will remember all the details about the actor.
+Grabs information from https://arkartassituacija.gov.lv/ and exports as JSON data
 
-You can use [Markdown](https://www.markdownguide.org/cheat-sheet)
-language for rich formatting.
+The latest information can be found in https://api.apify.com/v2/key-value-stores/xI1ZRUQ7pE0Wy9DVl/records/LATEST?disableRedirect=true and historical information on https://api.apify.com/v2/datasets/KVEDCvOxyTITEmd3T/items?format=json&clean=1
 
-## Documentation reference
+Actor ready-to-use on the Apify platform is available in https://apify.com/janpetr/covid-latvia
 
-- [Apify SDK](https://sdk.apify.com/)
-- [Apify Actor documentation](https://docs.apify.com/actor)
-- [Apify CLI](https://docs.apify.com/cli)
+URL is being scraped every 5 minutes.
